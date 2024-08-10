@@ -1,0 +1,13 @@
+{
+    "emails": [
+        {
+            "id": 8,
+            "image": "1.JPG",
+            "contact": "Bonsoir ADAM",
+            "message": "'espère que vous allez bien. Je souhaite changer le sujet de mon PFE pour me concentrer sur un projet de \"Dashboard Web et Application Mobile pour le Suivi des Déplacements\". Je suis passionné par ce sujet et motivé à relever ce défi en utilisant Flutter, un tracker GPS et Node.js.Et je suis également prêt à fournir des rapports détaillés pour vous tenir informé de mon avancement.Pouvons-nous discuter de cette proposition de changement ?",
+            "name": "CHAABIT RACHIDTH ",
+            "email": "RACHID@GMAIL.COM"
+        }
+    ],
+    "lastId": 8
+}

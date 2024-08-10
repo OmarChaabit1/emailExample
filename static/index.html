@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Block</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Email Block
+        </h1>
+    </header>
+    <main>
+        <article>
+            <h2>
+                New Email:
+            </h2>
+            <div class="form-container">
+                <h2>Contact Me</h2>
+                <form action="#" method="post">
+                    <label for="img">Image : </label>
+                    <input class="imageInput" id="imageInput" type="file">
+    
+                    <label for="contact">Contact_name</label>
+                    <input class="contactInput"  id="contactInput" type="text" id="name" name="name" value="Bonjour">
+
+                    <label for="message">Your Message:</label>
+                    <textarea class="messageInput" id="messageInput"  name="message" rows="4" required></textarea>
+    
+                    <label for="name">Your Name:</label>
+                    <input class="nameInput" id="nameInput" type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input class="emailInput" id="emailInput" type="email" id="email" name="email" required>
+    
+                    <button id="resetBtn" type="reset">cancel</button>
+                    <button id="submitBtn" type="submit" class="submit-button">addEmail</button>
+                </form>
+            </div>
+            </article>
+        <article>
+            <div class="email_container">
+                <h2>
+                    Emails (<span id="countEmailsSpan">0</span>)
+                </h2>
+                <div id="blockMail" class="blockMail">
+                    <!-- <img src="images/1.jpg" width="" alt="photo de Pierre Denaes" class="profile-image">
+                    <div class="blockNote">
+                        <h1>Bonjour Franck,</h1>
+                        <p>En réponse à votre mail du mercredi 19/11/2020 via la plateforme Carriere-info, me demandant si j'étais actuellement ouvert au marché pour travailler sur Nantes. Je vous annonce que je réside actuellement à La Ciotat dans la région PACA mais que je suis à l'écoute et ouvert à toute opportunité.
+                            <br>
+                            <br>
+                            N'hésitez pas à me recontacter si besoin, je vous souhaite une bonne journée!</p>
+                        <h2>Pierre Denaës</h2>
+                        <h3 class="email"><a href="mailto:photostudio13000@gmail.com">photostudio13000@gmail.com</a></h3>
+                        <div class="blocIcon">
+                            <a href="https://www.linkedin.com/in/pierre-dena%C3%ABs-0b4a7a61/" target="_blank"><img src="images/LinkedIn-noir.webp" alt="linkedin logo" class="social-icon"></a>
+        
+                            <a href="https://gitlab.com/PierreDenaes" target="_blank"><img src="images/gitlab.webp" alt="logo gitlab" class="social-icon"></a>
+        
+                            <a href="https://github.com/PierreDenaes" target="_blank"><img src="images/GitHub-Logo.wine.svg" alt="github logo" class="social-icon"></a>
+                        </div>
+                        <div class="btns">
+                            <button class="delete">delete</button>
+                            <button class="likeBtn">like</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        @OMARCHB1-2023
+    </footer>
+</body>
+
+</html>

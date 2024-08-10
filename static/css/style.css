@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(22, 126, 252);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+article {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.form-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: rgb(22, 126, 252);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button.submit-button {
+    background-color: rgb(22, 126, 252);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.email-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.blockMail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid grey;
+    width: 200px;
+    height: 150px ;
+    margin-bottom: 5%;
+}
+
+.blockNote {
+    width: 80%;
+    border: 1px solid #f0f0f0;
+    margin: auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.blockNote h1 {
+    color: rgb(22, 126, 252);
+}
+
+.blockNote p {
+    text-align: justify;
+}
+
+.blockNote h2 {
+    color: rgb(22, 126, 252);
+}
+
+.email {
+    font-size: 1em;
+    color: rgb(22, 126, 252);
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    border: 1px solid #f0f0f0;
+    height: 30px;
+    padding-top: 13px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgb(22, 126, 252);
+    color: white;
+    font-weight: 1.5em;
+}
+
+.blocIcon {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.social-icon {
+    width: 50px;
+    margin-right: 10px;
+}
+footer {
+    background-color: rgb(6, 51, 105);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+/* btns */
+.btns{
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+.delete {
+    background-color: rgb(252, 22, 22);
+    color: white;
+    padding: 10px ;
+    border: 0px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.likeBtn {
+    background-color: rgb(22, 110, 252);
+    color: white;
+    padding: 10px ;
+    border: 0px;
+    border-radius: 4px;
+}
+.email_container h2 {
+    margin-bottom: 2rem;
+}
